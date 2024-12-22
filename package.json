@@ -1,0 +1,19 @@
+{
+  "name": "whatsapp-check-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@whiskeysockets/baileys": "^6.7.9",
+    "baileys": "^6.7.9",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2"
+  }
+}
