@@ -5,128 +5,537 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61c9e9c6-3021-4228-ba80-84d9cca2bf9d" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.env" beforeDir="false" afterPath="$PROJECT_DIR$/.env" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/.package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/.package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/on-exit-leak-free/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-exit-leak-free/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/on-exit-leak-free/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-exit-leak-free/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/on-exit-leak-free/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-exit-leak-free/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/on-exit-leak-free/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-exit-leak-free/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/on-exit-leak-free/test/base.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-exit-leak-free/test/base.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/on-exit-leak-free/test/fixtures/beforeExit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/on-exit-leak-free/test/fixtures/beforeExit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/.github/dependabot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/boom/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/boom/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/boom/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/boom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/boom/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/LICENSE.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/LICENSE.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/assert.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/assert.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/clone.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/clone.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/contain.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/contain.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/deepEqual.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/deepEqual.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/index.d.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/isPromise.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/isPromise.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/reachTemplate.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/reachTemplate.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/types.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/lib/types.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/@hapi/hoek/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/@hapi/hoek/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WAProto/GenerateStatics.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WAProto/WAProto.proto" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WAProto/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WAProto/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/GroupProtocol.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/ciphertext_message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/group_cipher.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/group_session_builder.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/keyhelper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/protobufs.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/queue_job.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/sender_chain_key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/sender_key_distribution_message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/sender_key_message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/sender_key_name.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/sender_key_record.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/sender_key_state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/WASignalGroup/sender_message_key.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Defaults/baileys-version.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Defaults/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Defaults/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Signal/libsignal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Signal/libsignal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/Client/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/Client/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/Client/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/Client/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/Client/websocket.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/Client/websocket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/business.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/business.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/chats.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/chats.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/groups.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/groups.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/messages-recv.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/messages-recv.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/messages-send.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/messages-send.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/socket.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Socket/socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/make-cache-manager-store.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/make-cache-manager-store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/make-in-memory-store.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/make-in-memory-store.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/make-ordered-dictionary.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/make-ordered-dictionary.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/object-repository.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Store/object-repository.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Auth.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Auth.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Call.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Call.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Chat.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Chat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Contact.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Contact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Events.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Events.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/GroupMetadata.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/GroupMetadata.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Label.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Label.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/LabelAssociation.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/LabelAssociation.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Message.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Product.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Product.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Signal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Signal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Socket.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/Socket.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/State.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/State.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Types/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/auth-utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/auth-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/baileys-event-stream.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/baileys-event-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/business.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/business.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/chat-utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/chat-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/crypto.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/crypto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/decode-wa-message.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/decode-wa-message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/event-buffer.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/event-buffer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/generics.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/generics.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/history.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/history.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/link-preview.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/link-preview.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/logger.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/logger.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/lt-hash.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/lt-hash.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/make-mutex.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/make-mutex.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/messages-media.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/messages-media.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/messages.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/messages.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/noise-handler.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/noise-handler.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/process-message.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/process-message.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/signal.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/signal.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/use-multi-file-auth-state.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/use-multi-file-auth-state.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/validate-connection.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/Utils/validate-connection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/constants.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/decode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/decode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/encode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/encode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/generic-utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/generic-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/jid-utils.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/jid-utils.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/types.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WABinary/types.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WAM/BinaryInfo.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WAM/BinaryInfo.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WAM/constants.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WAM/constants.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WAM/encode.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WAM/encode.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WAM/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/WAM/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/lib/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/.bin/pino" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/.bin/pino.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/.bin/pino.ps1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/test/base.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/test/fixtures/beforeExit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/test/fixtures/close.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/test/fixtures/gc-not-close.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/on-exit-leak-free/test/fixtures/unregister.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/.husky/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/test/base.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-abstract-transport/test/types/index.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/.editorconfig" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/Readme.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/lib/err.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/lib/req.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/lib/res.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/test/err.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/test/req.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/test/res.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/test/types/index.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino-std-serializers/tsconfig.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/bin.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/browser.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/api.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/asynchronous.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/benchmarks.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/browser.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/bundling.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/child-loggers.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/ecosystem.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/help.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/lts.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/pretty.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/redaction.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/transports.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/docs/web.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/caller.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/deprecations.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/levels.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/meta.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/multistream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/proto.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/redaction.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/symbols.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/tools.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/transport-stream.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/worker-pipeline.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/lib/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/pino.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/pino.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/basic.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/broken-pipe.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/browser-levels.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/browser-serializers.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/browser-timestamp.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/browser-transmit.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/browser.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/complex-objects.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/crlf.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/custom-levels.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/error.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/escaping.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/esm/esm.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/esm/index.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/esm/named-exports.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/exit.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/final.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/broken-pipe/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/broken-pipe/destination.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/broken-pipe/syncfalse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/console-transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/default-exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/destination-exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/14-files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/2-files.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file1.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file10.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file11.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file12.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file13.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file14.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file3.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file4.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file6.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file7.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file8.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/eval/node_modules/file9.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/basic.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/child-with-serializer.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/child-with-updated-chindings.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/child.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/custom-time-label.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/custom-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/dateformat.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/error-props.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/final-no-log-before.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/final-return.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/final.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/formatters.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/level-first.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/no-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/null-prototype.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/obj-msg-prop.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/pretty-factory.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/redact.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/serializers.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/skipped-output.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/pretty/suppress-flush-sync-warning.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/stdout-hack-protection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/syncfalse-child.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/syncfalse-exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/syncfalse-flush-exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/syncfalse.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/to-file-transport-with-transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/to-file-transport.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/to-file-transport.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-exit-immediately-with-async-dest.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-exit-immediately.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-exit-on-ready.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-main.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-many-lines.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-string-stdout.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-transform.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport-wrong-export-type.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/transport/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/to-file-transport-with-transform.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/to-file-transport.es2017.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/to-file-transport.es5.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/to-file-transport.es6.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/to-file-transport.esnext.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/to-file-transport.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/transpile.cjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/transport-exit-immediately-with-async-dest.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/transport-exit-immediately.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/transport-exit-on-ready.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/transport-main.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/transport-string-stdout.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/fixtures/ts/transport-worker.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/formatters.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/helper.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/hooks.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/http.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/is-level-enabled.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/jest/basic.spec.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/levels.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/metadata.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/mixin-merge-strategy.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/mixin.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/multistream.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/pretty.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/redact.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/serializers.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/stdout-protection.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/syncfalse.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/timestamp.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/big.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/bundlers-support.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/caller.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/core.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/core.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/core.transpiled.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/module-link.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/pipeline.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/syncfalse.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/transport/targets.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/types/pino-import.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/types/pino-multistream.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/types/pino-top-export.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/types/pino-transport.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/types/pino-type-only.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/types/pino.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/pino/test/types/pino.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/index.test-d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/jest.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/process-warning/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/real-require/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/real-require/LICENSE.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/real-require/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/real-require/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/real-require/src/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/.eslintignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/.husky/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/.taprc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/bench.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/check.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/example.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/fixtures/firehose.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/types/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/sonic-boom/types/tests/test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/.github/dependabot.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/.github/workflows/ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/.github/workflows/package-manager-ci.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/.husky/pre-commit" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/.taprc" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/LICENSE" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/bench.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/index.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/lib/indexes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/lib/wait.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/lib/worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/package.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/base.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/bench.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/bundlers.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/close-on-gc.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/commonjs-fallback.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/create-and-exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/custom-worker.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/dir with spaces/test-package.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/end.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/error.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/esm.test.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/exit.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/helper.d.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/helper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/indexes.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/multibyte-chars.test.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/port.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/string-limit-2.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/string-limit.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/thread-management.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/to-file-on-destroy.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/to-file-on-final.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/to-file.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/to-file.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/transpiled.test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/ts.test.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/ts/to-file.ts" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/ts/transpile.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/uncaughtException.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/node_modules/thread-stream/test/unhandledRejection.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/baileys/package.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/.husky/pre-commit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/test/base.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/test/base.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/test/types/index.test-d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/test/types/index.test-d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/.github/dependabot.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino-abstract-transport/test/worker.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-abstract-transport/test/worker.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/Readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/Readme.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/lib/err.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/lib/err.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/lib/req.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/lib/req.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/lib/res.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/lib/res.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/err-with-cause.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/err-with-cause.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/err.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/err.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/req.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/req.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/res.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/res.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/types/index.test-d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/test/types/index.test-d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino-std-serializers/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino-std-serializers/tsconfig.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/LICENSE" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/.github/workflows/ci.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/CONTRIBUTING.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/CONTRIBUTING.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/basic.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/basic.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/child-child.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/child-child.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/child-creation.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/child-creation.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/child.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/child.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/deep-object.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/deep-object.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/internal/just-pino-heavy.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/internal/just-pino-heavy.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/internal/just-pino.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/internal/just-pino.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/internal/redact.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/internal/redact.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/long-string.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/long-string.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/multi-arg.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/multi-arg.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/multistream.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/multistream.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/object.bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/object.bench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/utils/generate-benchmark-doc.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/utils/generate-benchmark-doc.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/utils/runbench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/utils/runbench.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/benchmarks/utils/wrap-log-level.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/benchmarks/utils/wrap-log-level.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/browser.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/browser.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/build/sync-version.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/build/sync-version.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/api.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/api.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/asynchronous.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/asynchronous.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/benchmarks.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/benchmarks.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/browser.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/browser.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/bundling.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/bundling.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/child-loggers.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/child-loggers.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/ecosystem.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/ecosystem.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/help.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/help.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/lts.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/lts.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/pretty.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/pretty.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/redaction.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/redaction.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/transports.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/transports.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/docs/web.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/docs/web.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/examples/transport.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/examples/transport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/file.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/file.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/deprecations.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/deprecations.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/levels.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/levels.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/meta.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/meta.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/multistream.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/multistream.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/proto.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/proto.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/symbols.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/symbols.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/tools.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/tools.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/transport-stream.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/transport-stream.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/transport.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/transport.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/worker-pipeline.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/lib/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/lib/worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/pino.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/pino.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/pino.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/pino.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/basic.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/basic.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/broken-pipe.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/broken-pipe.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/browser-levels.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/browser-levels.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/browser-child.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/browser-child.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/browser-serializers.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/browser-serializers.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/browser-transmit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/browser-transmit.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/browser.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/browser.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/complex-objects.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/complex-objects.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/custom-levels.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/custom-levels.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/error.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/error.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/escaping.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/escaping.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/esm/named-exports.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/esm/named-exports.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/exit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/exit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/final.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/broken-pipe/basic.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/broken-pipe/basic.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/broken-pipe/destination.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/broken-pipe/destination.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/broken-pipe/syncfalse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/broken-pipe/syncfalse.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/console-transport.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/console-transport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/default-exit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/default-exit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/destination-exit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/destination-exit.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/basic.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/child-with-serializer.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/child-with-updated-chindings.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/child.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/custom-time-label.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/custom-time.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/dateformat.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/error-props.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/error.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/final-no-log-before.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/final-return.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/final.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/formatters.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/level-first.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/no-time.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/noop-transport.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/noop-transport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/null-prototype.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/null-prototype.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/obj-msg-prop.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/pretty-factory.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/redact.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/serializers.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/skipped-output.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/pretty/suppress-flush-sync-warning.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/stdout-hack-protection.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/stdout-hack-protection.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syncfalse-child.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syncfalse-child.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syncfalse-exit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syncfalse-exit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syncfalse-flush-exit.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syncfalse-flush-exit.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syncfalse.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syncfalse.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/syntax-error-esm.mjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/to-file-transport-with-transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/to-file-transport-with-transform.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/to-file-transport.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/to-file-transport.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/to-file-transport.mjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/to-file-transport.mjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-main.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-transform.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-transform.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-uses-pino-config.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-uses-pino-config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-worker-data.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-worker-data.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport-worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/transport/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/to-file-transport-with-transform.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/to-file-transport-with-transform.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/to-file-transport.es2017.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/to-file-transport.es5.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/to-file-transport.es6.cjs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/to-file-transport.esnext.cjs" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/to-file-transport.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/to-file-transport.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/transpile.cjs" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/transpile.cjs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/transport-exit-immediately-with-async-dest.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/fixtures/ts/transport-exit-immediately-with-async-dest.ts" afterDir="false" />
@@ -136,15 +545,17 @@
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/helper.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/helper.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/helper.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/http.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/http.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/is-level-enabled.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/is-level-enabled.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/internals/version.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/internals/version.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/levels.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/levels.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/metadata.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/metadata.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/mixin.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/mixin.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/multistream.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/multistream.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/pretty.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/redact.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/redact.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/pkg/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/pkg/pkg.config.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/pkg/pkg.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/stdout-protection.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/stdout-protection.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/syncfalse.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/syncfalse.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport-stream.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/big.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/big.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/bundlers-support.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/bundlers-support.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/caller.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/caller.test.js" afterDir="false" />
@@ -153,54 +564,33 @@
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/core.transpiled.test.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/core.transpiled.test.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/module-link.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/module-link.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/pipeline.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/pipeline.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/syncTrue.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/syncfalse.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/syncfalse.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/targets.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/targets.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/transport/uses-pino-config.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/transport/uses-pino-config.test.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/types/pino-multistream.test-d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/types/pino-multistream.test-d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/types/pino-top-export.test-d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/types/pino-top-export.test-d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/pino/test/types/pino-transport.test-d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/types/pino-transport.test-d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/types/pino-type-only.test-d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/types/pino-type-only.test-d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/types/pino.test-d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/types/pino.test-d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/pino/test/types/pino.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/pino/test/types/pino.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/process-warning/.github/dependabot.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/process-warning/.github/dependabot.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/process-warning/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/process-warning/.github/workflows/ci.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/process-warning/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/process-warning/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/process-warning/index.d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/process-warning/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/process-warning/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/process-warning/index.test-d.ts" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/process-warning/jest.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/process-warning/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/process-warning/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/process-warning/test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/real-require/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/real-require/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/real-require/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/.husky/pre-commit" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/.taprc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sonic-boom/.taprc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/.taprc" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sonic-boom/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sonic-boom/bench.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sonic-boom/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sonic-boom/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/test.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/test/periodicflush.test.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/sonic-boom/types/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/sonic-boom/types/index.d.ts" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/.github/workflows/ci.yml" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/.github/workflows/ci.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/.github/workflows/package-manager-ci.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/.husky/pre-commit" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/.husky/pre-commit" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/.taprc" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/.taprc" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/bench.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/bench.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/index.d.ts" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/index.d.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/lib/worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/lib/worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/base.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/base.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/bundlers.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/bundlers.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/commonjs-fallback.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/commonjs-fallback.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/helper.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/helper.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/indexes.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/string-limit-2.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/string-limit-2.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/string-limit.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/string-limit.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/thread-management.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/thread-management.test.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/ts/transpile.sh" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/ts/transpile.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/never-drain.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/never-drain.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/pkg/pkg.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/node_modules/thread-stream/test/pkg/pkg.test.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/test/syntax-error.mjs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/node_modules/thread-stream/tsconfig.json" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -243,21 +633,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop",
-    "last_opened_file_path": "E:/MEGA/Projetos/Projetos_em_JavaScript/whatsapp-check-api",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.pluginManager",
-    "ts.external.directory.path": "E:\\Program Files (x86)\\JetBrains\\WebStorm 2024.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/MEGA/Projetos/Projetos_em_JavaScript/whatsapp-check-api&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;ts.external.directory.path&quot;: &quot;E:\\Program Files (x86)\\JetBrains\\WebStorm 2024.2\\plugins\\javascript-plugin\\jsLanguageServicesImpl\\external&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager" selected="UUV.e2e">
     <configuration name="e2e" type="UUVRunConfiguration" factoryName="UUVRunConfiguration">
       <option name="projectHomeDir" value="$PROJECT_DIR$" />
@@ -286,6 +677,8 @@
       <updated>1734878430571</updated>
       <workItem from="1734878432547" duration="650000" />
       <workItem from="1734879112789" duration="9471000" />
+      <workItem from="1736470425680" duration="31000" />
+      <workItem from="1736470499802" duration="225000" />
     </task>
     <servers />
   </component>
